@@ -1,0 +1,27 @@
+.gallery {
+background-color: #f6f8fb;
+
+    &-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+    }
+
+    &-item {
+    overflow: hidden;
+    border-radius: 16px;
+    aspect-ratio: 4/3;
+    background-color: #ddd;
+
+        & img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transition: 0.4s;
+        }
+
+        &:hover img {
+        transform: scale(1.08);
+        }
+    }
+}
