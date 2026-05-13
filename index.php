@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ja">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -120,18 +120,18 @@
     <p class="section-lead">応募前に気になるポイントをまとめました。</p>
 
     <div class="faq-list">
-        <details class="faq-item">
-        <summary class="faq-question">Q. ブランクがあっても大丈夫ですか？</summary>
+        <div class="faq-item ">
+        <div class="faq-question js-accordion-title">Q. ブランクがあっても大丈夫ですか？</div>
         <div class="faq-answer">A. 問題ありません。学生時代以来の方や、久しぶりに野球を再開したメンバーもいます。</div>
-        </details>
-        <details class="faq-item">
-        <summary class="faq-question">Q. 未経験でも参加できますか？</summary>
+        </div>
+        <div class="faq-item">
+        <div class="faq-question js-accordion-title">Q. 未経験でも参加できますか？</div>
         <div class="faq-answer">A. 参加できます。まずはキャッチボールや練習から無理なく始められます。</div>
-        </details>
-        <details class="faq-item">
-        <summary class="faq-question">Q. 見学や体験参加はできますか？</summary>
+        </div>
+        <div class="faq-item">
+        <div class="faq-question js-accordion-title">Q. 見学や体験参加はできますか？</div>
         <div class="faq-answer">A. 可能です。応募フォームから見学希望と記載して送信してください。</div>
-        </details>
+        </div>
     </div>
     </div>
 </section>
@@ -185,6 +185,6 @@
     <small>&copy; 2026 Weekend Nine. All Rights Reserved.</small>
 </div>
 </footer>
-
+<?php wp_footer(); ?>
 </body>
 </html>

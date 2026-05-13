@@ -1,68 +1,72 @@
 @media screen and (max-width: 767px) {
 .container {
-width: 90%;
+    width: 90%;
 }
 
 .header {
-padding: 16px 0;
-}
+    padding: 16px 0;
 
-.header-inner {
-flex-direction: column;
-gap: 12px;
+    &-inner {
+        flex-direction: column;
+        gap: 12px;
+    }
 }
 
 .logo {
-font-size: 20px;
+    font-size: 20px;
 }
 
 .nav-list {
-flex-wrap: wrap;
-justify-content: center;
-gap: 12px 16px;
-font-size: 13px;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px 16px;
+    font-size: 13px;
 }
 
 .hero {
-min-height: 90vh;
-background-position: center;
+    min-height: 90vh;
+    background-position: center;
+
+    &-content {
+        min-height: 90vh;
+        align-items: center;
+        text-align: center;
+        padding-top: 120px;
+    }
+
+    &-title {
+        font-size: 40px;
+    }
+
+    &-text {
+        font-size: 16px;
+        margin-bottom: 32px;
+    }
 }
 
-.hero-content {
-min-height: 90vh;
-align-items: center;
-text-align: center;
-padding-top: 120px;
-}
 
-.hero-title {
-font-size: 40px;
-}
-
-.hero-text {
-font-size: 16px;
-margin-bottom: 32px;
-}
 
 .btn {
-width: 100%;
-max-width: 280px;
-text-align: center;
-padding: 14px 24px;
+    width: 100%;
+    max-width: 280px;
+    text-align: center;
+    padding: 14px 24px;
 }
 
 .section {
 padding: 64px 0;
-}
 
-.section-title {
+&-title {
 font-size: 28px;
 }
 
-.section-lead {
+&-lead {
 font-size: 15px;
 margin-bottom: 32px;
 }
+}
+
+
 
 .about-grid {
 grid-template-columns: 1fr;

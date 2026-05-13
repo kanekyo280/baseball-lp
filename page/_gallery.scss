@@ -1,27 +1,27 @@
 .gallery {
-    background-color: #f6f8fb;
-}
+background-color: #f6f8fb;
 
-.gallery-grid {
+    &-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 24px;
-}
+    }
 
-.gallery-item {
+    &-item {
     overflow: hidden;
     border-radius: 16px;
-    aspect-ratio: 4 / 3;
+    aspect-ratio: 4/3;
     background-color: #ddd;
-}
 
-.gallery-item img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    transition: 0.4s;
-}
+        & img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transition: 0.4s;
+        }
 
-.gallery-item:hover img {
-    transform: scale(1.08);
+        &:hover img {
+        transform: scale(1.08);
+        }
+    }
 }

@@ -1,37 +1,37 @@
 .about {
     background-color: #ffffff;
-}
 
-.about-grid {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 24px;
-}
+    &-grid {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 24px;
+    }
 
-.about-card {
-    padding: 32px 24px;
-    border: 1px solid #e8ecf2;
-    border-radius: 16px;
-    text-align: center;
-    background-color: #ffffff;
-    transition: 0.3s;
-}
+    &-card {
+        padding: 32px 24px;
+        border: 1px solid #e8ecf2;
+        border-radius: 16px;
+        text-align: center;
+        background-color: #ffffff;
+        transition: 0.3s;
 
-.about-card:hover {
-    box-shadow: 0 12px 32px rgba(26, 42, 68, 0.12);
-    transform: translateY(-4px);
-}
+        &:hover {
+            box-shadow: 0 12px 32px rgba(26, 42, 68, 0.12);
+            transform: translateY(-4px);
+        }
 
-.about-icon {
-    font-size: 32px;
-    margin-bottom: 16px;
-}
+        & h3 {
+            font-size: 20px;
+            margin-bottom: 8px;
+        }
 
-.about-card h3 {
-    font-size: 20px;
-    margin-bottom: 8px;
-}
+        & p {
+            color: #5f6b7a;
+        }
+    }
 
-.about-card p {
-    color: #5f6b7a;
+    &-icon {
+        font-size: 32px;
+        margin-bottom: 16px;
+    }
 }

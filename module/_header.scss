@@ -7,18 +7,21 @@
     padding: 24px 0;
     background-color: rgba(26, 42, 68, 0.75);
     backdrop-filter: blur(8px);
+
+        &-inner {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
 }
 
-.header-inner {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
+
 
 .logo {
     font-size: 24px;
     font-weight: 700;
     letter-spacing: 0.04em;
+    color: white;
 }
 
 .nav-list {
@@ -27,5 +30,10 @@
     list-style: none;
     font-size: 14px;
     font-weight: 700;
+    color: white;
+
+    & li:hover {
+        opacity: 0.6;
+    }
 }
 

@@ -8,3 +8,17 @@ function baseball_lp_styles() {
   );
 }
 add_action('wp_enqueue_scripts', 'baseball_lp_styles');
+
+
+function my_enqueue_scripts() {
+    wp_enqueue_script(
+        'my-script',                      
+        get_template_directory_uri() . '/js/functions.js', 
+        array('jquery'),                  
+        '1.0.0',                          
+        true   
+    );                           
+}
+add_action('wp_enqueue_scripts', 'my_enqueue_scripts');
+
+?>
